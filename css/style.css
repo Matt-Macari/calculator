@@ -10,7 +10,8 @@
 
 
 .calc-container {
-
+    width: 50%;
+    margin: 10em auto;
     display: grid;
     grid-template-areas: "display display display display"
         "line1 line1 line1 . "
@@ -32,6 +33,7 @@
 }
 
 .clear {
+    background-color: var(--blue);
     grid-area: line1;
 }
 
@@ -43,15 +45,15 @@
     grid-area: equals;
 }
 
-.clear,.equal {
+
+.equal {
     background-color: var(--yellow);
 }
 
 .divide,
 .multiply,
 .add,
-.sub
- {
+.sub {
     background-color: var(--orange);
 }
 

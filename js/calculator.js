@@ -221,6 +221,7 @@ addBtn.addEventListener("click", function () {
     console.log(operator);
 });
 
+
 const equalBtn = document.querySelector('.equal');
 equalBtn.addEventListener("click", function () {
     // let result = operator(num1, num2).toFixed(10);
